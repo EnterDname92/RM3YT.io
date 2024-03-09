@@ -8,6 +8,17 @@ body {
     background-color: #333;
     color: #fff;
 }
+.navbar {
+    margin: 20px;
+}
+.navbar a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
 .content {
     margin: 15px;
     padding: 20px;
