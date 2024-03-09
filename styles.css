@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.header {
+    text-align: center;
+    padding: 30px;
+    background-color: #333;
+    color: #fff;
+}
+.content {
+    margin: 15px;
+    padding: 20px;
+    background-color: #f1f1f1;
+}
+@media screen and (max-width: 600px) {
+    .content {
+        margin: 0;
+        padding: 10px;
+    }
+}
