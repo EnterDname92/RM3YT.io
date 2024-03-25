@@ -5,8 +5,10 @@ body {
 .header {
     text-align: center;
     padding: 30px;
-    background-color: #333;
+    background-color: #2234ae;
+    background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
     color: #fff;
+
 }
 .navbar {
     margin: 20px;
