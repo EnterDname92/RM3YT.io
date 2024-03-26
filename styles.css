@@ -8,7 +8,6 @@ body {
     background-color: #2234ae;
     background-image: linear-gradient(315deg, #2234ae 0%, #191714 74%);
     color: #fff;
-
 }
 .navbar {
     margin: 20px;
@@ -26,36 +25,31 @@ body {
     padding: 20px;
     background-color: #f1f1f1;
 }
+.square {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    animation: floatIn 2s ease-in forwards;
+}
+.square1 {
+    background-color: red;
+    animation-delay: 0s;
+}
+.square2 {
+    background-color: green;
+    animation-delay: 0.5s;
+}
+.square3 {
+    background-color: blue;
+    animation-delay: 1s;
+}
+@keyframes floatIn {
+    0% { transform: translateX(-100%); }
+    100% { transform: translateX(0); }
+}
 @media screen and (max-width: 600px) {
     .content {
         margin: 0;
         padding: 10px;
     }
-.square {
-            width: 100px;
-            height: 100px;
-            margin: 10px;
-            animation: floatIn 2s ease-in forwards;
-        }
-
-        .square1 {
-            background-color: red;
-            animation-delay: 0s;
-        }
-
-        .square2 {
-            background-color: green;
-            animation-delay: 0.5s;
-        }
-
-        .square3 {
-            background-color: blue;
-            animation-delay: 1s;
-        }
-
-        @keyframes floatIn {
-            0% { transform: translateX(-100%); }
-            100% { transform: translateX(0); }
-        }
-    
 }
