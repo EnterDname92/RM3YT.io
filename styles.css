@@ -26,12 +26,11 @@ body {
     background-color: #f1f1f1;
 }
 .square {
-    width: 100px;
-    height: 100px;
-    margin: 15px;
-    padding: 20px;
-    background-color: #f1f1f1;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
     animation: floatIn 2s ease-in forwards;
+}
 }
 .square1 {
     background-color: red;
