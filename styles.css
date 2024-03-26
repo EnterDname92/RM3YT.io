@@ -31,4 +31,31 @@ body {
         margin: 0;
         padding: 10px;
     }
+.square {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            animation: floatIn 2s ease-in forwards;
+        }
+
+        .square1 {
+            background-color: red;
+            animation-delay: 0s;
+        }
+
+        .square2 {
+            background-color: green;
+            animation-delay: 0.5s;
+        }
+
+        .square3 {
+            background-color: blue;
+            animation-delay: 1s;
+        }
+
+        @keyframes floatIn {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(0); }
+        }
+    
 }
